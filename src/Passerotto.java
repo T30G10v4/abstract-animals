@@ -1,9 +1,8 @@
 public class Passerotto extends Animale implements IVolante {
 
-    String name = "";
 
     public Passerotto(String name) {
-        this.name = name;
+        super(name);
     }
 
     public String getName() {

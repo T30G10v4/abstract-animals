@@ -1,9 +1,8 @@
 public class Cane extends Animale implements INuotante {
 
-    String name = "";
 
     public Cane(String name) {
-        this.name = name;
+        super(name);
     }
 
     public String getName() {

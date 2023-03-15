@@ -1,8 +1,8 @@
 public class Delfino extends Animale implements IVolante {
-    String name = "";
+
 
     public Delfino(String name) {
-        this.name = name;
+        super(name);
     }
 
     public String getName() {

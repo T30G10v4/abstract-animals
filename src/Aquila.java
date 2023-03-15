@@ -1,9 +1,8 @@
 public class Aquila extends Animale implements IVolante {
 
-    String name = "";
 
     public Aquila(String name) {
-        this.name = name;
+        super(name);
     }
 
     public String getName() {
