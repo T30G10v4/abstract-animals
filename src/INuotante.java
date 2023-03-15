@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface INuotante {
+public interface INuotante {
+    void nuota();
 }

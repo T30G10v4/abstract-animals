@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface IVolante {
+public interface IVolante {
+    void vola();
 }
